@@ -1,0 +1,52 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS metadata and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment configurations and secrets
+.env
+.env.local
+.env.*
+!.env.example
+*.pem
+*.key
+*.pkcs12
+*.pfx
+*.p12
+credentials.json
+*key*.json
+*secret*.json
+
+# Local API key test scripts
+test_keys.py
+test_github.py
+test_groq.py
+test_nvidia.py
+test_gemini2.py
+test_keys.py
+*key*.py
+*secret*.py
+
+
+# Local application logs and run-time state
+logs.txt
+logs_updated.txt
+S9SharedCode/code/state/
+S9SharedCode/code/sandbox/
+S9SharedCode/code/usage.json
+flow_output*.txt
